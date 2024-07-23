@@ -43,6 +43,7 @@ wayland_scanner_client = generator(
 )
 
 protos = [
+	'idle.xml',
 	wl_protocol_dir / 'staging/ext-idle-notify/ext-idle-notify-v1.xml',
 ]
 
